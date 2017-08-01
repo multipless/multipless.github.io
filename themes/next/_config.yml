@@ -30,6 +30,8 @@ canonical: true
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
 seo: false
 
+
+language: zh-Hans
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -37,8 +39,8 @@ seo: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
   #sitemap: /sitemap.xml
@@ -153,8 +155,12 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/avatar.png
 
+
+reward_comment: 觉得有用？请我吃雪糕。
+wechatpay: /images/wechat.png
+alipay: /images/alipay.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -261,8 +267,8 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-# highlight_theme: normal
- highlight_theme: night bright
+highlight_theme: normal
+# highlight_theme: night bright
 
 
 # ---------------------------------------------------------------
@@ -280,7 +286,7 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 21ce79263d05caac81af307c18a24f86
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -296,7 +302,7 @@ mathjax:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
+youyan_uid: 2140529
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -453,7 +459,7 @@ exturl: false
 #! ---------------------------------------------------------------
 
 # Motion
-use_motion: true
+use_motion: false # 关闭动画效果
 
 # Fancybox
 fancybox: true
@@ -511,6 +517,7 @@ vendors:
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
+
 
 
 
